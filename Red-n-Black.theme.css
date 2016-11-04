@@ -1,5 +1,5 @@
+{}
 /* Backgrounds */
-
 .app {
     background-image: url("https://i.imgur.com/q8NCGHH.jpg");
     background-size: cover !important;
@@ -16,7 +16,7 @@
     background-size: cover!important;
 }
 #pubs-container:before {
-	background: url("https://i.imgur.com/NUhSyNd.jpg")!important;
+    background: url("https://i.imgur.com/NUhSyNd.jpg")!important;
     background-size: cover!important;
 }
 
