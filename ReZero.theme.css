@@ -1,15 +1,4 @@
-//META{"name":"ReZero_Anime","description":"ReZero anime theme.","author":"CreamCheese (C.C.)","version":"2.3"}*//
-
-/* 
-Hex color for everything: #afafff
-Hex color for hovering: #8282ff
-Hex color for texts: #e6e6fa 
-*/
-
-/* Background */
-.app {
-    background-position: center;
-}
+{} /* Background */
 .app {
     background-image: url("https://i.imgur.com/w7UVsOs.jpg");
     background-size: cover !important;
