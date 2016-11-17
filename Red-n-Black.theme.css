@@ -692,6 +692,9 @@ a:link {
     bottom: 97px;
     right: -28px;
 }
+#user-profile-modal .avatar-wrapper {
+    background-color: transparent;
+}
 #user-profile-modal .header .activity {
     margin-top: 30px;
 }
@@ -729,7 +732,7 @@ a:link {
 #user-profile-modal .tab-bar-container {
     background-color: rgba(0, 0, 0, 0.78);
     border-bottom: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #9f0000;
 }
 #user-profile-modal .sub-header {
     background: rgba(0, 0, 0, 0.78);
@@ -777,7 +780,20 @@ a:link {
     animation: reject-friend-pulse 1.5s infinite;
 }
 #user-profile-modal .guilds .section+.section {
-    border-top: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border: 1px solid #000000;
+}
+#user-profile-modal .header:after {
+    background-color: transparent;
+    background-image: none;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag {
+    color: #fff;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    color: #000000;
 }
 .note textarea:focus {
     background: rgba(250, 26, 26, 0.2);
@@ -2061,7 +2077,7 @@ scroller.settings-wrapper.settings-panel {
     content: "Enable";
     color: #D89191;
 }
-.tab-bar.TOP .tab-bar-item.selected {
+#user-profile-modal .tab-bar .tab-bar-item.selected {
     border-bottom: 2px solid #9f0000;
     color: #9f0000;
 }
