@@ -689,8 +689,8 @@ a:link {
 }
 #user-profile-modal .avatar-profile .status {
     border: 1.4px solid rgba(255, 255, 255, 0.5);
-    bottom: 97px;
-    right: -28px;
+    bottom: 117px;
+    right: -35px;
 }
 #user-profile-modal .avatar-wrapper {
     background-color: transparent;
@@ -699,8 +699,8 @@ a:link {
     margin-top: 30px;
 }
 .avatar-profile .status {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
 }
 #user-profile-modal .header .discord-tag {
     position: absolute;
