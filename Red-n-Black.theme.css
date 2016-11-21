@@ -1,3 +1,5 @@
+//META{"name":"Red_n_Black","description":"Just a red and black theme with a hint of anime.","author":"CreamCheese (C.C.)","version":"1.0v"}*//{}
+
 {} /* Backgrounds */
 
 .app {
@@ -1994,6 +1996,26 @@ scroller.settings-wrapper.settings-panel {
 .settings-connections-wrapper .authed-app .header .header-actions .action-btn {
     background: #9f0000;
 }
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom: 2px solid #9f0000;
+    color: #9f0000;
+}
+.tab-bar.TOP .tab-bar-item {
+    color: #9f0000;
+}
+.tab-bar.TOP {
+    border-bottom: 1px solid #9f0000;
+}
+.tab-bar.TOP .tab-bar-item:hover {
+    border-bottom: 2px solid #6f0000;
+}
+.tab-bar.TOP .tab-bar-item.selected {
+    border-bottom: 2px solid #6f0000;
+    color: #6f0000;
+}
+.user-settings-modal button.preview-sound:before {
+    background-image: url(https://a.pomf.cat/esnmbl.png);
+}
 
 /* Better Discord Settings */
 .bd-settings > div:last-child {
@@ -2076,22 +2098,6 @@ scroller.settings-wrapper.settings-panel {
 .bda-slist .checkbox:before {
     content: "Enable";
     color: #D89191;
-}
-#user-profile-modal .tab-bar .tab-bar-item.selected {
-    border-bottom: 2px solid #9f0000;
-    color: #9f0000;
-}
-.tab-bar.TOP .tab-bar-item {
-    color: #9f0000;
-}
-.tab-bar.TOP {
-    border-bottom: 1px solid #9f0000;
-}
-.tab-bar.TOP .tab-bar-item:hover {
-    border-bottom: 2px solid #9f0000;
-}
-.user-settings-modal button.preview-sound:before {
-    background-image: url(https://a.pomf.cat/esnmbl.png);
 }
 
 /* Friends */
