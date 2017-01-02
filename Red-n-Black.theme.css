@@ -1,3 +1,5 @@
+//META{"name":"Red_n_Black","description":"Just a red and black theme with a hint of anime.","author":"CreamCheese (C.C.)","version":"1.0v"}*//{}
+
 {} /* Backgrounds */
 
 .app {
@@ -47,6 +49,9 @@
 }
 .theme-dark .messages-wrapper .messages .mentioned .message-text {
     background: rgba(250, 26, 26, 0.1);
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: rgba(0, 0, 0, 0.31);
 }
 .chat .welcome-message h1 {
     color: #9f0000;
@@ -134,11 +139,11 @@
     color: #9f0000 !important;
     text-decoration: none;
 }
-.mentioned .highlight:hover {
+.mention:hover {
     color: #9f0000;
     text-decoration: underline;
 }
-.highlight {
+.mention {
     color: #ffffff;
     text-decoration: underline;
 }
@@ -851,13 +856,13 @@ span.discriminator {
 .bda-dark .emoji-picker .search-bar input {
     color: #FFF;
     background-color: #500000;
-    border-top: 1px solid rgba(177, 0, 0, 0.83);
+    border: none;
 }
 .bda-dark #bda-qem button {
     background: rgba(0, 0, 0, 0.73);
-    border-left: 1px solid #9f0000;
     box-shadow: none;
     color: #FFF;
+    border: none;
 }
 .bda-dark #bda-qem button:hover {
     background-color: rgba(86, 0, 0, 0.86);
@@ -866,8 +871,8 @@ span.discriminator {
     background-color: rgba(86, 0, 0, 0.86);
 }
 .bda-dark #bda-qem {
-    border-bottom: 1px solid #9f0000!important;
     background: rgba(31, 2, 2, 0);
+    border: none !important;
 }
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
@@ -2256,6 +2261,9 @@ scroller.settings-wrapper.settings-panel {
     background-color: rgba(117, 0, 0, 0.55);
 }
 .badge {
+    background-color: #9f0000;
+}
+.theme-dark .themed-popout .header {
     background-color: #9f0000;
 }
  
