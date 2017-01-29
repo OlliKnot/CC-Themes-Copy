@@ -1,17 +1,12 @@
-//META{"name":"Red_n_Black","description":"Just a red and black theme with a hint of anime.","author":"CreamCheese (C.C.)","version":"1.0v"}*//{}
+//META{"name":"Red_n_Black","description":"Just a red and black theme with a hint of anime.","author":"CreamCheese (C.C.)","version":"1.0v"}*//{} 
 
-{} /* Backgrounds */
+/* Backgrounds */
 
-.app {
+.app,
+.callout-backdrop {
     background-image: url("https://i.imgur.com/q8NCGHH.jpg");
     background-size: cover !important;
     background-position: center !important;
-}
-.callout-backdrop {
-    background: url("https://i.imgur.com/q8NCGHH.jpg");
-    background-size: cover !important;
-    background-position: center !important;
-    opacity:0.9 !important;
 }
 .bda-backdrop {
     background: url("https://i.imgur.com/NUhSyNd.jpg")!important;
@@ -326,6 +321,38 @@ a:link {
 .theme-dark .message-group.is-local-bot-message {
     background-image: linear-gradient(90deg,rgba(46,49,54,.3) 80%,rgba(255,255,255,0) 100%);
     box-shadow: -20px 0 #9f0000,20px 0 #9f0000,-20px -1px 0 0 #9f0000,-20px 1px 0 #9f0000,20px 1px 0 #9f0000,20px -1px 0 #9f0000;
+}
+.theme-dark .search .search-bar {
+    background-color: #9f0000;
+    opacity: 0.5;
+}
+.search-popout .results-group {
+    background-color: rgba(0,0,0,0.80);
+}
+.search-popout,
+.search-popout .option:after,
+.search-popout .option.selected:after {
+    background: transparent !important;
+}
+.search-popout .option.selected {
+    background-color: #6f0000;
+}
+.theme-dark .search-popout {
+    box-shadow: 0 0px 3px rgba(146, 0, 0, 0.8);
+}
+.search-popout .search-option .filter {
+    color: #9f0000;
+}
+.theme-dark .search-answer, 
+.theme-dark .search-filter {
+    background-color: #6f0000;
+}
+.theme-dark .search-results-wrap {
+    background-color: rgba(4,4,4,0.75);
+}
+.theme-dark .search-results-wrap .search-header {
+    background-color: rgba(0,0,0,0.25);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2);
 }
 
 /* Guilds */
@@ -1832,9 +1859,9 @@ scroller.settings-wrapper.settings-panel {
 .tab-bar.SIDE .tab-bar-item {
     color: hsla(0, 0%, 100%, 0.64);
 }
-.tab-bar.SIDE .tab-bar-item.selected{
+.tab-bar.SIDE .tab-bar-item.selected {
     color: #9f0000;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 .tab-bar.SIDE .tab-bar-item:hover {
     color: #9f0000;
